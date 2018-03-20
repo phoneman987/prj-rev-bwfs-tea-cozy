@@ -1,0 +1,159 @@
+body {
+background-color: black;
+font-size: 22px;
+font-family:"Helvetica";
+color:seashell;
+}
+
+header{
+  display:flex;
+  align-items: center;
+  width: 1200px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+header nav{
+  padding-right: 40px;
+}
+.Logo img{
+  margin-left: 10px
+  align-items: horizontal;
+
+}
+
+.Logo{
+  display: flex;
+  align-items: horizontal;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+a {
+  color: white;
+}
+nav span {
+  display:inline-flex;
+  padding: 20px 10px;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.mission h2{
+  display:flex;
+  justify-content: center;
+  background-color: black;
+  width: 1200px;
+
+
+}
+
+.mission h4{
+  justify-content: center;
+  background-color: black;
+  padding-left: 100px;
+  margin-top: 0px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+
+}
+
+h4{
+  display: flex;
+  justify-content: center;
+}
+.flex-container{
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.berry img{
+  height: 200px;
+  width: 300px;
+  padding-left: 80px;
+
+}
+.rum img{
+  height: 200px;
+  width: 300px;
+  padding-left: 10px;
+}
+.bedford img{
+  height: 200px;
+  width: 300px;
+  padding-left: 10px;
+}
+.donut img{
+  height: 200px;
+  width: 300px;
+  padding-left:10px;
+}
+.myrtle img{
+  height: 200px;
+  width: 300px;
+  padding-left: 50px;
+}
+.flex-container1{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin-left: 170px;
+}
+
+.flex-container1 h2{
+  justify-content: center;
+  width:1200px;
+}
+.box1{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-left: 50px;
+
+}
+.box2{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+
+
+}
+.box3{
+  height:300px;
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+
+}
+ h3 {
+  padding-left: 80px;
+}
+footer{
+  width:1200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+  h5{
+  margin-left: 500px;
+}
+footer h2 {
+  margin-left:200px;
+}
+
+.copyright{
+  margin-left: 20px;
+}
